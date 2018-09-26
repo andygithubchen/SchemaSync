@@ -5,6 +5,10 @@ import os
 import datetime
 import glob
 import cStringIO
+import sys  
+reload(sys)  
+sys.setdefaultencoding('utf-8')
+
 
 # REGEX_NO_TICKS = re.compile('`')
 # REGEX_INT_SIZE = re.compile('int\(\d+\)')
